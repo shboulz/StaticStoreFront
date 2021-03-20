@@ -1,0 +1,117 @@
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: url(images/Summoners_rift_platform.png) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+h1 {
+    color: #fa0000;
+    font-size: 5.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+    text-align: center;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+a:visited {
+    color: #ff0000;
+}
+a:hover {
+    color: rgb(0, 25, 253);
+}
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+div.clear { 
+    clear:both;
+    font-size: 1%;
+}
+button {
+    color: #000000;
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    margin: 0 0.75em 0 0;
+    padding: 0.5em 0.5em;
+    border: 1px solid #000000;
+    text-transform: uppercase;
+    align-items: center;
+}
+button:hover {
+    background-color: #ff0000;
+    border: 1px solid #000000;
+}
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: #fdfdfd url(images/Greater_Murk_Wolf_OriginalSkin.jpg) no-repeat scroll center 45%;
+    background-size: cover;
+}
+header h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #9c9a97;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    text-align: center;
+    position: center;   
+}
+section #main {
+    background-color: rgba(252,251,243,0.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em  0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+ section .panel{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.5em 0.5em;
+    padding: 1.0em 1.0em 1.0em 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    text-align: center;
+}
+.video{
+    float: right;
+    margin-top: 13.5%;
+    position: relative;
+}
+.video2{
+    float: left;
+    margin-top: 12%;
+    position: relative;
+}
